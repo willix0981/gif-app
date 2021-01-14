@@ -25,6 +25,7 @@ import PropTypes from 'prop-types';
         <form onSubmit={handleSubmit}>
         <input
         type="text"
+        placeholder="introduce el gif a buscar aqui"
         value ={inputvalue}
         onChange={handleInputChange} />
         </form>
